@@ -33,13 +33,13 @@
             color: #333;
         }
         .section {
-            padding: 0.5em 0;
+            padding: 1em 0;
         }
         .section h2 {
             text-align: center;
             margin-bottom: 0.5em;
         }
-        .section p {
+        .section p, .section ul {
             line-height: 1.6;
         }
         footer {
@@ -51,50 +51,94 @@
             width: 100%;
             bottom: 0;
         }
+        .contact-info {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Mohammad Ali Humayun</h1>
-        <p>Assistant Professor</p>
+        <p>Assistant Professor, ITU Lahore, Pakistan</p>
     </header>
 
     <nav>
+        <a href="#summary">Summary</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#publications">Publications</a>
         <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
     </nav>
 
     <div class="container">
+        <section id="summary" class="section">
+            <h2>Summary</h2>
+            <p>As a faculty member and researcher, my teaching and research focus on addressing challenges in speech, audio, and language processing using deep learning, with a strong emphasis on achieving real-world impact.</p>
+        </section>
+
         <section id="experience" class="section">
             <h2>Experience</h2>
-            <p> Assistant Professor in the Department of Computer Science at the Information Technology University (ITU), Lahore, Pakistan. I supervise research regarding speech, audio, language, and biomedical signal processing with deep learning. Besides, I teach statistics and signal processing courses.</p>
+            <ul>
+                <li><strong>Information Technology University (ITU), Lahore, Pakistan</strong>
+                    <ul>
+                        <li>Assistant Professor, Department of Artificial Intelligence: 2023-Present</li>
+                        <li>Teaching Fellow: 2022-2023</li>
+                        <li>Instructor for Python Short Courses: 2022-2023</li>
+                    </ul>
+                </li>
+                <li><strong>Universiti Brunei Darussalam (UBD)</strong>
+                    <ul>
+                        <li>PhD Research Fellow: 2020-2023</li>
+                    </ul>
+                </li>
+                <li><strong>Telecom Industry Vendors</strong>
+                    <ul>
+                        <li>IP Networks Expert: 2010-2018</li>
+                    </ul>
+                </li>
+            </ul>
         </section>
 
         <section id="projects" class="section">
             <h2>Projects</h2>
             <ul>
-        <li>Exploring time-frequency speech features for speaker profiling</li>
-        <li>Cross-lingual transfer learning for author profiling</li>
-        <li>Unsupervised representation learning for low-resource domains</li>
-        <li>Explainable medical diagnosis with biomedical signals</li>
-        <li>Optical character recognition for cursive handwritten Urdu scripts</li>
-    		</ul>
+                <li>Enhancing Urdu Optical Text Recognition</li>
+                <li>Efficient Adaptation of Speech Recognition Models</li>
+                <li>Adapting Large Language Models (LLMs) for Domain-Specific Tasks</li>
+                <li>Speech Accent Classification Using Deep Learning</li>
+                <li>Unsupervised Representation Learning for Low Resource Keyword Spotting</li>
+                <li>Fine-tuning Transformer Models for Text Dialect Classification</li>
+            </ul>
         </section>
 
         <section id="publications" class="section">
             <h2>Publications</h2>
-            <a href="https://scholar.google.com/citations?user=51yS-RsAAAAJ&hl=en&oi=ao">Google Scholar</a>
+            <p>For a complete list of my publications, please visit my <a href="https://scholar.google.com/citations?user=51yS-RsAAAAJ&hl=en&authuser=2">Google Scholar Profile</a>.</p>
         </section>
 
         <section id="education" class="section">
             <h2>Education</h2>
             <ul>
-        <li>PhD in System Engineering, Universiti Brunei Darussalam (PhD Fellowship)</li>
-        <li>MS Telecommunication Engineering, University of Engineering and Technology, Peshawar, Pakistan (Merit Scholarship)</li>
-        <li>Bachelor's in Electronic Engineering, Ghulam Ishaq Khan Institute of Engineering Sciences and Technology, Topi, Pakistan</li>
-    	</ul>
+                <li>PhD Systems Engineering, Universiti Brunei Darussalam (2023)</li>
+                <li>MS Telecommunication Engineering, University of Engineering and Technology, Peshawar, Pakistan (2018)</li>
+                <li>Bachelor's in Electronic Engineering, Ghulam Ishaq Khan Institute of Engineering Sciences and Technology, Pakistan (2008)</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Phone/WhatsApp: +923315118552</p>
+                <p>Email: <a href="mailto:mohammadalihumayun@gmail.com">mohammadalihumayun@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/mohammad-ali-humayun-473a5631" target="_blank">www.linkedin.com/in/mohammad-ali-humayun-473a5631</a></p>
+                <p>GitHub: <a href="https://github.com/mohammadalihumayun" target="_blank">github.com/mohammadalihumayun</a></p>
+            </div>
         </section>
     </div>
 </body>
